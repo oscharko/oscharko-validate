@@ -2,27 +2,16 @@
   "name": "oscharko-validate",
   "private": false,
   "version": "0.0.1",
-  "description": "",
+  "description": "Small library for form validation in Vue.js.",
   "main": "./index.ts",
   "types": "./types/index.d.ts",
   "keywords": [],
   "author": "oscharko",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscharko/oscharko-validate.git"
+  },
   "homepage": "https://oscharko.de",
   "license": "ISC",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "pinia": "2.1.7",
-    "vue": "3.3.13"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "4.5.2",
-    "typescript": "5.3.3",
-    "vite": "5.0.10",
-    "vue-tsc": "1.8.26"
-  }
+  "type": "module"
 }
