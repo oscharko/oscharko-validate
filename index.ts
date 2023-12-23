@@ -9,8 +9,8 @@
  */
  import getValidationErrorMessages from "./src/getValidationErrorMessages";
 
- const oscharkoFormValidation = {
+ const oscharkoValidate = {
   getValidationErrorMessages,
  }
 
-export default oscharkoFormValidation
+export default oscharkoValidate

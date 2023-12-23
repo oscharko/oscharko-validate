@@ -1,4 +1,4 @@
-# oscharko-form-validate [![npm](https://img.shields.io/npm/v/oscharko-form-validate)](https://www.npmjs.com/package/oscharko-form-validation) by [oscharko](https://oscharko.de)
+# oscharko-validate [![npm](https://img.shields.io/npm/v/oscharko-validate)](https://www.npmjs.com/package/oscharko-form-validation) by [oscharko](https://oscharko.de)
 > Engineer and Programmer
 ## Innovative People Think Differently
 
