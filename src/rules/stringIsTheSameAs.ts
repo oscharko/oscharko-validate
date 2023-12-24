@@ -7,6 +7,7 @@
  * oscharko-library
  * --------------------
  */
+import { useInternDto } from "../stores/internDto";
 
 type TypeValidationRuleStringIsTheSameAs = {
   name: string
@@ -19,7 +20,7 @@ type TypeValidationRuleStringIsTheSameAs = {
   },
 }
 export default (value: string, rule: TypeValidationRuleStringIsTheSameAs) => {
-  const internDto = rule.parameter.internDto
+  const internDto = useInternDto()
   const dataBinding =
     rule.parameter.dataBindingFromComparer
       ? rule.parameter.dataBindingFromComparer

@@ -13,5 +13,9 @@
   },
   "homepage": "https://oscharko.de",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.3.13"
+  }
 }
